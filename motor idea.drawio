@@ -1,9 +1,132 @@
-<mxfile host="app.diagrams.net" modified="2023-05-04T20:37:16.205Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.3" etag="jtfziIVO7GXrOjfHdLAO" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-04T21:48:30.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="cIS3HBtRWI2lZFRwa6MR" version="21.2.3" type="github">
   <diagram name="Page-1" id="Q4Lv3Z2FAKjB0ojWQMU1">
-    <mxGraphModel>
+    <mxGraphModel dx="658" dy="1313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="bw7ATcsFGcYq4jeGcCVI-1" target="bw7ATcsFGcYq4jeGcCVI-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="380" />
+              <mxPoint x="90" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-1" value="Motor" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2Bdaughter;" vertex="1" parent="1">
+          <mxGeometry x="110" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="bw7ATcsFGcYq4jeGcCVI-2" target="bw7ATcsFGcYq4jeGcCVI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-5" value="I2S" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2Bdaughter;" vertex="1" connectable="0" parent="bw7ATcsFGcYq4jeGcCVI-4">
+          <mxGeometry x="-0.3" y="2" relative="1" as="geometry">
+            <mxPoint x="-15" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-2" value="Motor Controller" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2Bdaughter;" vertex="1" parent="1">
+          <mxGeometry x="294" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;startArrow=classic;startFill=1;" edge="1" parent="1" source="bw7ATcsFGcYq4jeGcCVI-6" target="bw7ATcsFGcYq4jeGcCVI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-23" value="I2C" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2Bdaughter;" vertex="1" connectable="0" parent="bw7ATcsFGcYq4jeGcCVI-15">
+          <mxGeometry x="0.2333" relative="1" as="geometry">
+            <mxPoint y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bw7ATcsFGcYq4jeGcCVI-6" target="bw7ATcsFGcYq4jeGcCVI-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-6" value="ESP32" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2Bdaughter;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="bw7ATcsFGcYq4jeGcCVI-7" target="bw7ATcsFGcYq4jeGcCVI-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="380" />
+              <mxPoint x="460" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-21" value="SPI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2Bdaughter;" vertex="1" connectable="0" parent="bw7ATcsFGcYq4jeGcCVI-14">
+          <mxGeometry x="0.2544" y="-1" relative="1" as="geometry">
+            <mxPoint x="11" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-7" value="Arduino" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2Bdaughter;" vertex="1" parent="1">
+          <mxGeometry x="480" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="bw7ATcsFGcYq4jeGcCVI-8" target="bw7ATcsFGcYq4jeGcCVI-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-22" value="UART" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2Bdaughter;" vertex="1" connectable="0" parent="bw7ATcsFGcYq4jeGcCVI-13">
+          <mxGeometry x="-0.3143" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bw7ATcsFGcYq4jeGcCVI-8" target="bw7ATcsFGcYq4jeGcCVI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-8" value="TIMO" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2Bdaughter;" vertex="1" parent="1">
+          <mxGeometry x="650" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="bw7ATcsFGcYq4jeGcCVI-9" target="bw7ATcsFGcYq4jeGcCVI-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="450" />
+              <mxPoint x="250" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-9" value="Motor" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2Bdaughter;" vertex="1" parent="1">
+          <mxGeometry x="110" y="430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-11" value="Motor" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2Bdaughter;" vertex="1" parent="1">
+          <mxGeometry x="110" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="bw7ATcsFGcYq4jeGcCVI-16" target="bw7ATcsFGcYq4jeGcCVI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-24" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+daughter&quot; face=&quot;Architects daughter&quot;&gt;WiFi&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bw7ATcsFGcYq4jeGcCVI-17">
+          <mxGeometry x="-0.24" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-16" value="Art-Net" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2Bdaughter;" vertex="1" parent="1">
+          <mxGeometry x="590" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-19" value="Screen &amp;amp; Buttons" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2Bdaughter;" vertex="1" parent="1">
+          <mxGeometry x="293" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="bw7ATcsFGcYq4jeGcCVI-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-25" value="DMX" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2Bdaughter;" vertex="1" parent="1">
+          <mxGeometry x="820" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="bw7ATcsFGcYq4jeGcCVI-27" target="bw7ATcsFGcYq4jeGcCVI-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-29" value="Lumenradio" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Architects daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2Bdaughter;" vertex="1" connectable="0" parent="bw7ATcsFGcYq4jeGcCVI-28">
+          <mxGeometry x="-0.6778" y="-1" relative="1" as="geometry">
+            <mxPoint x="-31" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-27" value="WDMX" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2Bdaughter;" vertex="1" parent="1">
+          <mxGeometry x="890" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-30" value="&lt;h1&gt;Arduino&lt;/h1&gt;&lt;p&gt;Arduino will translate incoming .co-ordinates into 3 motor instructions and sync command for the pre-build controller&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Architects daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2Bdaughter;" vertex="1" parent="1">
+          <mxGeometry x="480" y="420" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bw7ATcsFGcYq4jeGcCVI-31" value="&lt;h1&gt;ESP32&lt;/h1&gt;&lt;p&gt;Will provide user interface and settings for the device + WiFi communication to use Art-Net or get device settings&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Architects daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2Bdaughter;" vertex="1" parent="1">
+          <mxGeometry x="390" y="110" width="190" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
